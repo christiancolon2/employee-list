@@ -1,0 +1,85 @@
+.App{
+  height:50%;
+  width:60%;
+  border: 2px solid black;
+  margin-left:20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  color:rgb(97, 92, 92)
+}
+
+.item img{
+  width:50px;
+  margin-top:20px;
+  
+}
+.item{
+  margin:5px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border:2px solid green;
+  padding:0% 15%;
+}
+.employeelist{
+  margin:5px;
+  border: 2px solid red;
+}
+.home{
+  text-align: center;
+}
+.header{
+  margin:5px;
+  border:2px solid purple;
+}
+.search input{
+  margin:5px;
+  
+  width:95%;
+  border-radius: 5px;
+  height: 20px;
+  border:2px solid yellow;
+  
+}
+.search{
+  position:relative;
+}
+.search-icon{
+ position: absolute;
+ bottom:8px;
+ left:350px
+}
+.page{
+  border:2px solid green;
+  padding-bottom: 62px;
+  margin:5px;
+  
+  
+  
+  
+}
+.employeedetails{
+  background-color: rgb(247, 245, 242);
+  
+  border:1px solid rgb(177, 172, 172);
+  margin:30px;
+}
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid rgb(212, 219, 212);
+  margin:6px;
+}
+.arrow{
+  margin-top:40px;
+}
+.employeename h1{
+  text-align: center;
+}
+#employeelistitem{
+  border:2px solid white;
+}
+
+
